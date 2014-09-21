@@ -45,7 +45,7 @@ cacheSolve <- function(x, ...) {
     message("getting cached data")
     return(inv)
   }
-  
+
   ## ...Else get original matrix data
   data <- x$get()
   
